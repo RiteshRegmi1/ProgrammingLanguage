@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="6dp"
+    android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/ProgrammingTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Hey I am in the sitthib tin "/>
+
+    <ImageView
+        android:id="@+id/programmingImageView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"/>
+</LinearLayout>
